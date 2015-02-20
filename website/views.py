@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render_to_response, redirect
-from micSitCeg.models import Interesados
+#from micSitCeg.models import Interesados
 from django.template import RequestContext
-from micSitCeg.forms import InteresadosForm
+#from micSitCeg.forms import InteresadosForm
 from datetime import timezone
 from django.core.context_processors import csrf
 
